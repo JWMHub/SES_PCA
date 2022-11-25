@@ -5,8 +5,6 @@
 
 ## 資料載入與整理
 
-You can include R code in the document as follows:
-
 ``` r
 factors <- read.csv(file = "socioeconomic_factors.csv")
 factors <- factors[factors$POP_DEN > 1000, ]
